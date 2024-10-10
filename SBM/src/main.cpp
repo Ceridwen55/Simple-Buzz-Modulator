@@ -9,6 +9,10 @@ void setup()
 
 void loop()
 {
-  analogWrite(passiveBuzz,3);
+  analogWrite(passiveBuzz,70);
+  delay(10);
+  analogWrite(passiveBuzz,70);
+  delay(10);
+
 }
 
